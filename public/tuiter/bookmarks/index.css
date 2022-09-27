@@ -1,0 +1,51 @@
+body {
+    font-family: "Arial Black";
+    background-color: black;
+    color: white;
+}
+
+.wd-title {
+    border-left: 16px;
+    border-top: 12px;
+    font-size: 20px;
+}
+
+.wd-title-handle {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    border-top: 16px;
+}
+
+.wd-ruler-color {
+    border-bottom: solid 1px rgb(110, 118, 125);
+}
+
+.wd-image {
+    width: 48px;
+    height: 48px;
+    border-left: 16px;
+    border-top: 12px;
+    border-radius: 48px;
+}
+
+.wd-text-gray {
+    color: rgb(110, 118, 125);
+}
+
+.wd-font-size {
+    font-size: 15px;
+}
+
+.wd-author {
+    border-right: 12px;
+    border-top: 12px;
+}
+
+.wd-paragraph {
+    font-size: 15px;
+    width: 506px;
+    border-left: 16px;
+    border-bottom: 12px;
+}
+
+
