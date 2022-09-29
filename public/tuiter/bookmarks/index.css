@@ -8,6 +8,7 @@ body {
     border-left: 16px;
     border-top: 12px;
     font-size: 20px;
+    margin: 0px;
 }
 
 .wd-title-handle {
@@ -30,6 +31,7 @@ body {
 
 .wd-text-gray {
     color: rgb(110, 118, 125);
+    width: 506px;
 }
 
 .wd-font-size {
@@ -48,4 +50,44 @@ body {
     border-bottom: 12px;
 }
 
+.wd-main-content-image {
+    width: 504px;
+    height: 264px;
+}
 
+.wd-rounded-corners-top {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.wd-rounded-corners-bottom {
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-width: 1px;
+}
+
+.wd-icons {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+    text-decoration: none;
+}
+
+.wd-color-red {
+    color: red;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-clear {
+    clear: both;
+}
+
+.wd-margin-left {
+    margin-left: 12px;
+}
+
+.wd-icon-margin {
+    margin-left: 90px;
+}

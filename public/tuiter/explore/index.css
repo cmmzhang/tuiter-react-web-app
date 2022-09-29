@@ -23,10 +23,12 @@ body {
     border-radius: 16px;
     color: rgb(110, 118, 125);
     font-size: 15px;
+    margin-left: 16px;
 }
 
 .wd-rounded-corners-all-around {
     border-radius: 50px;
+    width: 500px;
 }
 
 .wd-bg-gray {
@@ -36,6 +38,7 @@ body {
 .wd-gear {
     border-right: 12px;
     text-decoration: none;
+    margin-left: 12px;
 }
 
 .wd-title-gray {
@@ -48,6 +51,7 @@ body {
     height: 100px;
     border-right: 16px;
     border-radius: 25px;
+    margin-right: 16px;
 }
 
 .wd-float-right {
@@ -74,4 +78,25 @@ body {
     position: absolute;
     top: 50px;
     right: 50px;
+}
+
+.wd-font-size {
+    font-size: 15px;
+}
+
+.wd-margin-0 {
+    margin: 0px;
+}
+
+.wd-margin-top {
+    margin-top: 20px;
+}
+
+.wd-h1 {
+    width: 80%;
+    float: left;
+}
+
+.wd-margin-left {
+    margin-left: 16px;
 }
