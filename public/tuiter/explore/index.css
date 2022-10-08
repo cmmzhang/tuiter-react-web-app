@@ -100,3 +100,28 @@ body {
 .wd-margin-left {
     margin-left: 16px;
 }
+
+.wd-search-tuiter {
+    bottom: 7px;
+    left: 10px;
+}
+
+.wd-min-width {
+    min-width: 600px;
+}
+
+.wd-margin-right {
+    margin-right: 10px;
+}
+
+.wd-margin-left-1 {
+    margin-left: 1px;
+}
+
+.wd-font-weight {
+    font-weight: normal;
+}
+
+.wd-font-size-10 {
+    font-size: 13px;
+}

@@ -3,65 +3,206 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
     <link href="index.css"
           rel="stylesheet"/>
 </head>
 <body>
-<div class="wd-margin-left">
-    <h1>Explore</h1>
-    <input class="wd-rounded-corners-all-around wd-bg-gray wd-font-size" placeholder="Search Tuiter"/>
-    <a class="wd-gear" href="explore-settings.html">&#x2699;</a>
-    <ul class="wd-nav-tabs">
-        <li class="wd-selected">For you</li>
-        <li class="wd-non-selected">Trending</li>
-        <li class="wd-non-selected">COVID-19</li>
-        <li class="wd-non-selected">News</li>
-        <li class="wd-non-selected">Sports</li>
-        <li class="wd-non-selected">Entertainment</li>
-    </ul>
+<div class="container pt-1">
+    <div class="row">
+        <div class="col-2">
+            <div class="list-group">
+                <a href="https://en.wikipedia.org/wiki/Dune_(novel)" class="list-group-item list-group-item-action bg-black ">
+                    <i class="fab fa-twitter text-white wd-margin-right"></i></a>
+                <a href="https://en.wikipedia.org/wiki/Dune_(novel)" class="list-group-item list-group-item-action bg-black">
+                    <i class="fa fa-house-user text-white wd-margin-right"></i><span class="d-none d-lg-none d-xl-inline-block text-white">Home</span></a>
+                <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings" class="list-group-item list-group-item-action active bg-black">
+                    <i class="fa fa-hashtag text-white wd-margin-right"></i><span class="d-none d-lg-none d-xl-inline-block text-white">Explore</span></a>
+                <a href="https://en.wikipedia.org/wiki/The_Forever_War" class="list-group-item list-group-item-action bg-black">
+                    <i class="fa fa-bell text-white wd-margin-right"></i><span class="d-none d-lg-none d-xl-inline-block text-white">Notifications</span></a>
+                <a href="https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(novel)" class="list-group-item list-group-item-action bg-black">
+                    <i class="fa fa-envelope text-white wd-margin-right"></i><span class="d-none d-lg-none d-xl-inline-block text-white">Messages</span>></a>
+                <a href="https://en.wikipedia.org/wiki/Ender%27s_Game" class="list-group-item list-group-item-action bg-black">
+                    <i class="fa fa-bookmark text-white wd-margin-right"></i><span class="d-none d-lg-none d-xl-inline-block text-white">Bookmarks</span>></a>
+                <a href="https://en.wikipedia.org/wiki/Ender%27s_Game" class="list-group-item list-group-item-action bg-black">
+                    <i class="fa fa-list text-white wd-margin-right"></i><span class="d-none d-lg-none d-xl-inline-block text-white">Lists</span>></a>
+                <a href="https://en.wikipedia.org/wiki/Ender%27s_Game" class="list-group-item list-group-item-action bg-black">
+                    <i class="fa fa-user text-white wd-margin-right"></i><span class="d-none d-lg-none d-xl-inline-block text-white">Profile</span>></a>
+                <a href="https://en.wikipedia.org/wiki/Ender%27s_Game" class="list-group-item list-group-item-action bg-black">
+                    <i class="fa fa-ellipsis-h text-white wd-margin-right"></i><span class="d-none d-lg-none d-xl-inline-block text-white">More</span>></a>
+            </div>
+            <button class="btn btn-primary w-100 mt-1 rounded-pill">
+                Tuit
+            </button>
 
-    <div>
-        <h3 class="wd-title-gray wd-margin-0">Trending in Science</h3>
-        <h1 class="wd-margin-0 wd-font-size">Starship</h1>
-        <h3 class="wd-title-gray wd-margin-0">55.5K views</h3>
-    </div>
-    <div class="wd-margin-top"></div>
-    <div>
-        <h3 class="wd-title-gray wd-margin-0">Sports Trending</h3>
-        <h1 class="wd-margin-0 wd-font-size">Joe Rogan</h1>
-        <h3 class="wd-title-gray wd-margin-0">5,218 Tweets</h3>
+        </div>
+        <div class="col-6">
+            <div class="row">
+                <div class="col-10">
+                    <div class="position-relative">
+                        <input class="ps-4 form-control rounded-pill bg-dark border-dark wd-margin-left" placeholder="Search Tuiter"/>
+                        <i class="position-absolute wd-search-tuiter fa fa-search fa-1x wd-color-gray wd-margin-left"></i>
+                    </div>
+                </div>
+            <div class="col-2">
+                <i class="fa fa-cog fa-2x float-end text-white"></i>
+            </div>
+        </div>
+
+            <ul class="nav nav-tabs mt-1 ">
+
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">For you</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active bg-dark text-white border-dark" href="#">Entertainment</a>
+                </li>
+            </ul>
+
+            <div class="position-relative">
+            <img src="../../images/nl.jpg" width="100%" />
+            <h4 class="position-absolute bottom-0 left-0 wd-margin-left">
+                <div class="wd-font-size wd-margin-left-1">Music . Last night</div>
+                BTS and Coldplay release their new song, My Universe <img class="rounded-pill" src="../../images/planet.jpg" width="5%"/>
+            </h4>
+            </div>
+
+            <ul class="list-group">
+                <li class="list-group-item bg-black">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="text-secondary">
+                            Trending in R&B soul
+                            </div>
+                            <div class="fw-bolder text-white">
+                                R Kelly
+                            </div>
+                            <div class="fw-bolder text-secondary">
+                            18.2K Tuits
+                            </div>
+                        </div>
+                        <div class="col-4">
+                           <i class="fa fa-ellipsis-h text-white float-end"></i>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="list-group-item bg-black">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="fw-bolder text-secondary">
+                                Trending in R&B & soul
+                            </div>
+                            <div class="fw-bolder text-white">
+                                Chloe
+                            </div>
+                            <div class="text-secondary">
+                                Trending with <span class="text-primary">Halle</span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <i class="fa fa-ellipsis-h text-white float-end"></i>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="list-group-item bg-black">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="text-secondary">
+                                T The Times<i class="fa fa-check-circle text-white"></i><span class="text-secondary"> September 24, 2021</span>
+                            </div>
+                            <div class="fw-bolder text-white">
+                                Stanley Tucci: 'Food or sex? That's the cruellest question..'
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img class="float-end rounded wd-rounded-size" src="../../images/tucci.jpg" height="100px"/>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col d-none d-lg-block d-md-none">
+            <div class="row">
+                <div class="col">
+                    <ul class="list-group">
+                        <li class="list-group-item bg-dark">
+                            <span class="text-white">Who to follow</span>
+                        </li>
+
+                        <li class="list-group-item bg-dark">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="float-start rounded-pill" src="../../images/bee.jpg" height="50px"/>
+                                </div>
+
+                                <div class="col">
+                                    <div class="fw-bolder text-white">
+                                        The Babylon Bee <i class="fa fa-check-circle"></i>
+                                    </div>
+                                    <div class="text-secondary">
+                                        @TheBabylonBee
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="float-end rounded-pill bg-white">
+                                        <span class="text-dark">Follow</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item bg-dark">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="float-start rounded-pill" src="../../images/relativityspace.jpg" height="50px"/>
+                                </div>
+
+                                <div class="col">
+                                    <div class="fw-bolder text-white">
+                                        Jack Posobiec <i class="fas fa-flag-usa"></i> <i class="fa fa-check-circle"></i>
+                                    </div>
+                                    <div class="text-secondary">
+                                        @JackPosobiec
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="float-end rounded-pill bg-white">
+                                        <span class="text-dark">Follow</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item bg-dark">
+                            <span class="text-primary">Show more</span>
+                        </li>
+
+                    </ul>
+                    <div class="wd-font-size-10">
+                        <span class="wd-margin-left">Terms of Service</span> <span class="wd-margin-left">Privacy Policy</span> <span class="wd-margin-left">Cookie Policy</span>
+                    </div>
+                    <div class="wd-font-size-10">
+                        <span class="wd-margin-left">Ads info</span> <span class="wd-margin-left">More...</span> <span class="wd-margin-left">@2021 Tuiter, Inc.</span>
+                    </div>
+
+                </div>
+        </div>
     </div>
 
-    <hr class="wd-ruler-color"/>
-    <div>
-        <h3 class="wd-font-size">The New York Times <span class="wd-color-gray">Yesterday</span></h3>
-        <h1 class="wd-font-size wd-h1 wd-margin-0">CNN's Cuomo conundrum: A star anchor with a brother in trouble</h1>
-        <img class="wd-image wd-float-right" src="../alpaca.jpg"/>
-        <div class="wd-float-done"></div>
-    </div>
-    <hr class="wd-ruler-color"/>
 
-    <div>
-        <h3 class="wd-color-gray wd-font-size">COVID-19 LIVE</h3>
-        <h1 class="wd-h1 wd-font-size">COVID-19: News and updates for Massachusetts</h1>
-        <img class="wd-image wd-float-right" src="../alpaca.jpg"/>
-        <div class="wd-float-done"></div>
-    </div>
-    <hr class="wd-ruler-color"/>
-
-    <div>
-        <h3 class="wd-font-size">Bloomberg Opinion <span class="wd-color-gray">Yesterday</span></h3>
-        <h1 class="wd-h1 wd-font-size">Thinking about getting a booster? Read this first.</h1>
-        <img class="wd-image wd-float-right" src="../alpaca.jpg"/>
-        <div class="wd-float-done"></div>
-    </div>
-    <hr class="wd-ruler-color"/>
-
-    <div>
-        <h3 class="wd-title-gray wd-margin-0">Trending in United States</h3>
-        <h1 class="wd-margin-0 wd-font-size">Wonder Bread</h1>
-        <h3 class="wd-title-gray wd-margin-0">1,259 Tweets</h3>
-    </div>
 </div>
 </body>
 </html>
