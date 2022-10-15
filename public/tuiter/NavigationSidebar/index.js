@@ -1,13 +1,13 @@
-const NavigationSidebar = () => {
+const NavigationSidebar = (active) => {
     return(`
    <div class="list-group">
      <a class="list-group-item" href="/">
        <i class="fab fa-twitter"></i></a>
        <!-- continue rest of list, e.g.,
             Home, Explore, Notifications,  Messages, etc. -->
-     <a class="list-group-item" href="/">
+     <a class="list-group-item" href="../HomeScreen/index.html">
        <i class="fa fa-house-user"></i>Home</a>
-     <a class="list-group-item active" href="/">
+     <a class="list-group-item active" href="../explore/index.html">
        <i class="fa fa-hashtag"></i>Explore</a>
      <a class="list-group-item" href="/">
        <i class="fa fa-bell"></i>Notifications</a> 
