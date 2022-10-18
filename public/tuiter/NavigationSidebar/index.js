@@ -5,9 +5,9 @@ const NavigationSidebar = (active) => {
        <i class="fab fa-twitter"></i></a>
        <!-- continue rest of list, e.g.,
             Home, Explore, Notifications,  Messages, etc. -->
-     <a class="list-group-item {{if ${active} == 'home'}}active{{/if}}" href="../HomeScreen/index.html">
+     <a  href="../HomeScreen/index.html" ${active === 'home'? `<a class="list-group-item active">` : `<a class="list-group-item">`}
        <i class="fa fa-house-user"></i>Home</a>
-     <a class="list-group-item {{if ${active} == 'explore'}}active{{/if}}" href="../explore/index.html">
+     <a href="../explore/index.html" ${active === 'explore'? `<a class="list-group-item active">` : `<a class="list-group-item">`}
        <i class="fa fa-hashtag"></i>Explore</a>
      <a class="list-group-item" href="/">
        <i class="fa fa-bell"></i>Notifications</a> 
