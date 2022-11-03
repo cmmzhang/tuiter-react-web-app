@@ -13,8 +13,9 @@ import todos from "./todos.js";
 // export default TodoList;
 
 const TodoList = () => {
+
     return(`
-      <ul>
+    <ul>
          ${
         todos.map(todo => {
             return(TodoItem(todo));
@@ -23,4 +24,6 @@ const TodoList = () => {
       </ul>
    `);
 }
+
+
 export default TodoList;
